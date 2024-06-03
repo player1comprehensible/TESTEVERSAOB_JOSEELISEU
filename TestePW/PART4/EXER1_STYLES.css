@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+td {
+  background-color: #ffffff;
+  color: #333;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+.cisco {
+  background-color: #1a73e8;
+  color: white;
+}
+.juniper {
+  background-color: #0073b1;
+  color: white;
+}
+.netgear {
+  background-color: #ff6600;
+  color: white;
+}
+.tplink {
+  background-color: #00c853;
+  color: white;
+}
